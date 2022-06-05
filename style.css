@@ -110,7 +110,7 @@ input {
     font-size: 1.2em;
     background: fixed ;
     border-radius: 5px;
-    margin-top: -px;
+    margin-top: -200px;
     margin-bottom: 1em;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0,0.2);
@@ -131,4 +131,25 @@ input:focus{
     background: #fcfbfb;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0,0.2);
     text-shadow: none;
+}
+
+footer {
+    margin-bottom: 48px;
+    margin-top: -295px;
+    border-top: 0.1px solid white;
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    align-items: center;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 20px;
+    border-bottom-color: aliceblue;
+
+}
+
+.link {
+    color: rgb(0, 0, 0);
 }
