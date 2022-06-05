@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, black 16.15%, rgb(94, 92, 92) 85.16%)
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.1px solid white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space;
+    margin-left: 58%;
+    margin-top: 30px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cadastro {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 1;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-top: -3%;
+}
+
+.cadastro1 {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 1;
+    font-size: 20px;
+    margin-left: 20%;
+
+}
+
+fieldset {
+    border: none;
+}
+.check {
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    font-weight: 1px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 600px;
+    margin-top: 0.2em;
+
+}
+
+label {
+    margin-top: 2%;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: fixed ;
+    border-radius: 5px;
+    margin-top: -px;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input:focus{
+    background: rgb(199, 194, 194);
+}
+
+.botao:hover {
+    background: #fcfbfb;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0,0.2);
+    text-shadow: none;
+}
