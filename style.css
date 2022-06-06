@@ -33,7 +33,7 @@ body {
 }
 
 .conteudo {
-    margin-bottom: 48px;
+    margin-bottom: 10px;
     border-top: 0.1px solid rgba(109, 102, 102, 0.432);
 }
 
@@ -42,7 +42,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-top: 30px;
 }
 
@@ -153,4 +153,13 @@ footer {
 
 .link {
     color: rgb(0, 0, 0);
+}
+
+@media  screen and (max-width:1000px) {
+    header {
+        flex-direction: column;
+        font-size: 20px;
+        padding: 10px;
+    }
+
 }
