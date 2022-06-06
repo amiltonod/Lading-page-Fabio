@@ -34,7 +34,7 @@ body {
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.1px solid white;
+    border-top: 0.1px solid rgba(109, 102, 102, 0.432);
 }
 
 .conteudo-principal {
@@ -135,9 +135,10 @@ input:focus{
 
 footer {
     margin-bottom: 48px;
-    margin-top: -350px;
-    border-top: 0.1px solid white;
+    margin-top: -348px;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.055);
 }
+
 .icon {
     display: flex;
     flex-direction: row;
