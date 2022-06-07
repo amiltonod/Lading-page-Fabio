@@ -16,25 +16,13 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
-    padding: 24px;
-}
-
-.cabecalho-menu {
-    display: flex;
-    gap: 30px;
-}
-
-.cabecalho-menu-item {
-    font-family: 'Montserrat', sans-serif;
-    color: aliceblue;
-    font-weight: 400;
-    font-size: 20px;
+    justify-content: right; 
 }
 
 .conteudo {
     margin-bottom: 10px;
     border-top: 0.1px solid rgba(109, 102, 102, 0.432);
+
 }
 
 .conteudo-principal {
@@ -42,41 +30,44 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-top: 30px;
 }
 
 .conteudo-principal-titulo {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 200;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
-    margin-left: 50px;
+    margin: 20px;
+
 }
 
 .conteudo-principal-subtitulo {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: -5%;
+ 
 }
 
 .cadastro {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-weight: 1;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20%;
-    margin-top: -3%;
+    
 }
 
 .cadastro1 {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-weight: 1;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 20%;
 
 }
@@ -88,10 +79,10 @@ fieldset {
     font-family: 'Montserrat', sans-serif;
     color: aliceblue;
     font-weight: 1px;
-    font-size: 20px;
+    font-size: 13px;
     display: flex;
     flex-direction: column;
-    margin: 600px;
+    margin: 400px;
     margin-top: 0.2em;
 
 }
@@ -102,15 +93,15 @@ label {
 
 input {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
+    font-size: large;
     border-radius: 5px;
 }
 
 .botao {
-    font-size: 1.2em;
+    font-size: 1em;
     background: fixed ;
     border-radius: 5px;
-    margin-top: -200px;
+    margin-top: -20px;
     margin-bottom: 1em;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0,0.2);
@@ -134,7 +125,7 @@ input:focus{
 }
 
 footer {
-    margin-bottom: 48px;
+    margin-bottom: 8px;
     margin-top: -348px;
     border-top: 0.1px solid rgba(255, 255, 255, 0.055);
 }
@@ -142,11 +133,11 @@ footer {
 .icon {
     display: flex;
     flex-direction: row;
-    font-size: 50px;
+    font-size: 25px;
     align-items: center;
     justify-content:center;
-    gap: 15px;
-    margin-top: 45px;
+    gap: 30px;
+    margin-top: 10px;
     border-bottom-color: aliceblue;
 
 }
