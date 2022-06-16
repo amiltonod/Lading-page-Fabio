@@ -146,4 +146,14 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-@media :-moz-full-screen
+<style>
+    @import url(tiny.css) (min-width:300px);
+    @import url(small.css) (min-width:600px);
+    @import url(big.css) (min-width:900px);
+<style>
+@media screen and (max-widht: 300px) {
+    /* estilos*/
+}
+@media  screen and (max-widht: 600px) {
+    /* Estilos*/
+}
