@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
+
 *{
     margin: 0%;
     padding: 0%;
@@ -146,14 +147,4 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-<style>
-    @import url(tiny.css) (min-width:300px);
-    @import url(small.css) (min-width:600px);
-    @import url(big.css) (min-width:900px);
-<style>
-@media screen and (max-widht: 300px) {
-    /* estilos*/
-}
-@media  screen and (max-widht: 600px) {
-    /* Estilos*/
-}
+@media (max-width: 767px)
